@@ -13,9 +13,18 @@ module.exports = {
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗
     //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
 
-    name: { type: 'string' },
-    message: { type: 'string' },
-    email: { type: 'string' },
+    name: {
+      type: 'string',
+      required: true
+    },
+    message: {
+      type: 'string',
+      required: true
+    },
+    email: {
+      type: 'string',
+      required: true
+    },
 
 
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
